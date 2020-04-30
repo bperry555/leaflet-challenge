@@ -3,14 +3,14 @@ const streets = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.pn
     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
     maxZoom: 18,
     id: "mapbox.streets",
-    accessToken: 'pk.eyJ1IjoiYnBlcnJ5IiwiYSI6ImNrOWMzYW9uZjAwdzIzZXMwcHpnMDd4cGYifQ.f-_rrSpsZs-FkZnABYzfMg'
+    accessToken: 'API KEY'
 });
 
 const satelite = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
     maxZoom: 18,
     id: "mapbox.dark",
-    accessToken: 'pk.eyJ1IjoiYnBlcnJ5IiwiYSI6ImNrOWMzYW9uZjAwdzIzZXMwcHpnMDd4cGYifQ.f-_rrSpsZs-FkZnABYzfMg'
+    accessToken: 'API KEY'
 });
 
 var myMap = L.map('map', {
